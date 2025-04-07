@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hdas2_test_1744010942222-push-trigger-input-set
+  identifier: Build_hdas2_test_1744010942222pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: gitopsproject
+  pipeline:
+    identifier: Build_hdas2_test_1744010942222
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
