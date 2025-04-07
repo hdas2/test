@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hdas2_test_1744010942222-pr-trigger-input-set
+  identifier: Build_hdas2_test_1744010942222prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: gitopsproject
+  pipeline:
+    identifier: Build_hdas2_test_1744010942222
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
